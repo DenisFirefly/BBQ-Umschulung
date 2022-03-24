@@ -1,0 +1,238 @@
+@import url("https://rsms.me/inter/inter.css");
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html {
+  --poster-size: 95vmin;
+  --ratio: 415 / 512;
+  --poster-width: calc(var(--poster-size) * var(--ratio));
+  --poster-height: var(--poster-size);
+  --poster-text-color--light: hsl(300, 7%, 95%);
+  --poster-text-color--mid: hsl(0, 1%, 73%);
+  --poster-text-color--dark: hsl(226, 7%, 52%);
+  --poster-background-color--light: hsl(248, 9%, 18%);
+  --poster--background-color--dark: hsl(206, 18%, 8%);
+  --app-background-color: hsl(206, 18%, 7%);
+  font-family: "Inter", sans-serif;
+  font-size: calc(var(--poster-width) / 100);
+}
+
+body {
+  display: grid;
+  min-height: 100vh;
+  color: var(--poster-text-color--light);
+  background: var(--app-background-color);
+  place-items: center;
+}
+
+.poster {
+  display: grid;
+  width: var(--poster-width);
+  height: var(--poster-size);
+  padding: 9rem;
+  background-image: radial-gradient(
+    circle at top center,
+    var(--poster-background-color--light),
+    var(--poster--background-color--dark)
+  );
+  grid-template-columns: repeat(20, 1fr);
+}
+.poster__content {
+  font-size: 0.8rem;
+  font-weight: 200;
+}
+.poster__content--upper {
+  grid-column: 9 / span 3;
+}
+.poster__content--lower {
+  grid-column: 12 / span 3;
+}
+.poster__content-block {
+  margin-bottom: 1em;
+}
+.poster__header {
+  font-size: 8rem;
+  display: grid;
+  letter-spacing: -0.08em;
+  text-transform: uppercase;
+  grid-column: 1 / span 20;
+  grid-template-columns: repeat(20, 1fr);
+  grid-auto-flow: column;
+}
+.poster__title {
+  --color: hsl(300, 7%, 95%);
+  --color--dark: #bbb9b9;
+  display: block;
+}
+.poster__title:nth-of-type(1) {
+  grid-column: 12 / span 8;
+  grid-row: 1;
+}
+.poster__title:nth-of-type(2) {
+  grid-column: 9 / span 9;
+  grid-row: 2;
+}
+.poster__title:nth-of-type(3) {
+  grid-column: 6 / span 9;
+  grid-row: 3;
+}
+.poster__title:nth-of-type(4) {
+  grid-column: 3 / span 9;
+  grid-row: 4;
+}
+.poster__title:nth-of-type(5) {
+  grid-column: 9 / span 9;
+  grid-row: 5;
+}
+.poster__title:nth-of-type(6) {
+  grid-column: 9 / span 2;
+  grid-row: 6;
+}
+.poster__title:nth-of-type(7) {
+  grid-column: 6 / span 11;
+  grid-row: 7;
+}
+.poster__title:nth-of-type(8) {
+  grid-column: 3 / span 11;
+  grid-row: 8;
+}
+.poster__title:nth-of-type(9) {
+  grid-column: 1 / span 11;
+  grid-row: 9;
+}
+.poster [role="presentation"] {
+  --color: var(--poster-text-color--mid);
+  --color--dark: var(--poster-text-color--dark);
+}
+.poster .char {
+  color: var(--color);
+}
+.poster .char--dark {
+  color: var(--color--dark);
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+/* html,
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #f5f6f3;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+} */
+
+.rolling-text {
+  display: inline-block;
+  font-family: "Playfair Display", serif;
+  font-size: 48px;
+  line-height: 72px;
+  letter-spacing: 24px;
+  height: 72px;
+  text-decoration: none;
+  overflow: hidden;
+  color: #ffffff;
+}
+.rolling-text:hover .letter,
+.rolling-text.play .letter {
+  transform: translateY(-100%);
+}
+.rolling-text .block:last-child {
+  color: #d3a13b;
+}
+.rolling-text .letter {
+  display: inline-block;
+  transition: transform 0.6s cubic-bezier(0.76, 0, 0.24, 1);
+}
+
+.letter:nth-child(1) {
+  transition-delay: 0s;
+}
+
+.letter:nth-child(2) {
+  transition-delay: 0.015s;
+}
+
+.letter:nth-child(3) {
+  transition-delay: 0.03s;
+}
+
+.letter:nth-child(4) {
+  transition-delay: 0.045s;
+}
+
+.letter:nth-child(5) {
+  transition-delay: 0.06s;
+}
+
+.letter:nth-child(6) {
+  transition-delay: 0.075s;
+}
+
+.letter:nth-child(7) {
+  transition-delay: 0.09s;
+}
+
+.letter:nth-child(8) {
+  transition-delay: 0.105s;
+}
+
+.letter:nth-child(9) {
+  transition-delay: 0.12s;
+}
+
+.letter:nth-child(10) {
+  transition-delay: 0.135s;
+}
+
+.letter:nth-child(11) {
+  transition-delay: 0.15s;
+}
+
+.letter:nth-child(12) {
+  transition-delay: 0.165s;
+}
+
+.letter:nth-child(13) {
+  transition-delay: 0.18s;
+}
+
+.letter:nth-child(14) {
+  transition-delay: 0.195s;
+}
+
+.letter:nth-child(15) {
+  transition-delay: 0.21s;
+}
+
+.letter:nth-child(16) {
+  transition-delay: 0.225s;
+}
+
+.letter:nth-child(17) {
+  transition-delay: 0.24s;
+}
+
+.letter:nth-child(18) {
+  transition-delay: 0.255s;
+}
+
+.letter:nth-child(19) {
+  transition-delay: 0.27s;
+}
+
+.letter:nth-child(20) {
+  transition-delay: 0.285s;
+}
+
+.letter:nth-child(21) {
+  transition-delay: 0.3s;
+}

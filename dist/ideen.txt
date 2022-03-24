@@ -1,0 +1,19 @@
+Ideen: 
+Suchfunktion implementieren und integrieren
+Dark/Night Mode implementieren
+Next/Previous Picture implementieren (Handy)
+
+Things to be finished:
+me.css picture of you B&W
+Weekly fill of the daily PC-Grundlagen
+Upgrade learn to type to see successfull hits and fails
+Change the number of MEM in lernstoff accourding the quotes that exist in the js file
+Add more quotes from the students in class
+Implement the link to each day in PC_Grundlagen new_item class
+Quote Machine: [ 
+The Term and then a spoiler after it,
+Wrong and right button in coresponding colors,
+- Wrong: Deletes the Term out of the array and puts it in another array that is underneath,
+- Right: I have to edit the current next term button in green,
+New array for the already knows term
+]

@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/style_testbogen.css" />
+    <title>Algemein Quiz</title>
+  </head>
+  <body>
+    <!-- top section -->
+    <div class="intro py-3 bg-white text-center">
+      <div class="container">
+        <h2 class="text-primary display-3 my-4">Abschluss Quiz</h2>
+      </div>
+    </div>
+    <div class="clock text-center"></div>
+
+    <!-- result section -->
+    <div class="result py-4 d-none bg-light text-center">
+      <div class="container lead">
+        <p>
+          Du bist
+          <span class="text-primary display-4 p-3">0%</span> Fachinformatiker
+        </p>
+      </div>
+    </div>
+
+    <!-- Quiz section -->
+    <div class="qiuiz py-4 bg-primary bg-gradient">
+      <div class="container">
+        <h2 class="my-5 text-white">On with the questions</h2>
+
+        <form action="" class="quiz-form text-light">
+          <div class="my-5">
+            <p class="lead font-weight-normal">
+              1. Wenn Sie eine Festplatte mit 500 GB in Ihr System einsetzen,
+              dann hat diese
+            </p>
+            <div class="form-check my-2 text-white-100">
+              <input type="radio" name="q1" value="A" checked />
+              <label class="form-check-label"
+                >eine Kapazität von 35000 KB</label
+              >
+            </div>
+            <div class="form-check my-2 text bg-white-100">
+              <input type="radio" name="q1" value="B" />
+              <label class="form-check-label">eine Kapazität von 0,50 TB</label>
+            </div>
+            <div class="form-check my-2 text bg-white-100">
+              <input type="radio" name="q1" value="C" />
+              <label class="form-check-label">eine Kapazität von 5000 MB</label>
+            </div>
+            <div class="form-check my-2 text bg-white-100">
+              <input type="radio" name="q1" value="D" />
+              <label class="form-check-label">eine Kapazität von 0,50 PB</label>
+            </div>
+          </div>
+          <div class="my-5">
+            <p class="lead font-weight-normal">
+              2. Wenn eine Farbdarstellung als »24 Bit« bezeichnet wird, wie
+              viele Farben stelltsie dar?
+            </p>
+            <div class="form-check my-2 text-white-100">
+              <input type="radio" name="q2" value="A" checked />
+              <label class="form-check-label">16 Farben </label>
+            </div>
+            <div class="form-check my-2 text bg-white-100">
+              <input type="radio" name="q2" value="B" />
+              <label class="form-check-label">256 Farben </label>
+            </div>
+            <div class="form-check my-2 text bg-white-100">
+              <input type="radio" name="q2" value="C" />
+              <label class="form-check-label">65.536 Farben</label>
+            </div>
+            <div class="form-check my-2 text bg-white-100">
+              <input type="radio" name="q2" value="D" />
+              <label class="form-check-label">16.777.216 Farben</label>
+            </div>
+          </div>
+          <div class="my-5">
+            <p class="lead font-weight-normal">
+              3. Ein selbstständiges Computersystem benötigt für die
+              vollständige Verarbei-tung von Prozessen mindestens:
+            </p>
+            <div class="form-check my-2 text-white-100">
+              <input type="radio" name="q3" value="A" checked />
+              <label class="form-check-label"
+                >einen Prozessor und eine Festplatte
+              </label>
+            </div>
+            <div class="form-check my-2 text bg-white-100">
+              <input type="radio" name="q3" value="B" />
+              <label class="form-check-label"
+                >eine Tastatur, Festplatte und Bildschirm</label
+              >
+            </div>
+            <div class="form-check my-2 text bg-white-100">
+              <input type="radio" name="q3" value="C" />
+              <label class="form-check-label">
+                ein Eingabegerät, einen Prozessor und Speicher</label
+              >
+            </div>
+            <div class="form-check my-2 text bg-white-100">
+              <input type="radio" name="q3" value="D" />
+              <label class="form-check-label"
+                >einen Prozessor, Arbeitsspeicher, eine Maus und eine
+                Tastatur</label
+              >
+            </div>
+          </div>
+          <div class="my-5">
+            <p class="lead font-weight-normal">
+              4. Eine Kunde wünscht von Ihnen ein SFF-System. Was liefern Sie
+              ihm?
+            </p>
+            <div class="form-check my-2 text-white-100">
+              <input type="radio" name="q4" value="A" checked />
+              <label class="form-check-label"
+                >Einen PC mit Small Form Factor-Gehäuse</label
+              >
+            </div>
+            <div class="form-check my-2 text bg-white-100">
+              <input type="radio" name="q4" value="B" />
+              <label class="form-check-label"
+                >Ein Notebook mit Small Form Factor-Eigenschaften</label
+              >
+            </div>
+            <div class="form-check my-2 text bg-white-100">
+              <input type="radio" name="q4" value="C" />
+              <label class="form-check-label"
+                >Ein Smartphone mit Secure Form Fixation – schraubenlosem
+                Gehäusedesign</label
+              >
+            </div>
+            <div class="form-check my-2 text bg-white-100">
+              <input type="radio" name="q4" value="D" />
+              <label class="form-check-label"
+                >Eine intelligente Uhr mit SFF-Logo, dem Nachweis für
+                wasserdichte Ge-häuse
+              </label>
+            </div>
+          </div>
+          <div class="my-5">
+            <p class="lead font-weight-normal">
+              5. Was fehlt bei den allermeisten Convertibles in der Ausstattung?
+            </p>
+            <div class="form-check my-2 text-white-100">
+              <input type="radio" name="q5" value="A" checked />
+              <label class="form-check-label">WLAN-Adapter</label>
+            </div>
+            <div class="form-check my-2 text bg-white-100">
+              <input type="radio" name="q5" value="B" />
+              <label class="form-check-label">Grafikchip</label>
+            </div>
+            <div class="form-check my-2 text bg-white-100">
+              <input type="radio" name="q5" value="C" />
+              <label class="form-check-label">DVD-Laufwerk</label>
+            </div>
+            <div class="form-check my-2 text bg-white-100">
+              <input type="radio" name="q5" value="D" />
+              <label class="form-check-label">Festspeicher</label>
+            </div>
+          </div>
+          <div class="my-5">
+            <p class="lead font-weight-normal">
+              6. Welcher Computertyp kann einem Kunden empfohlen werden, wenn
+              diesernur mit Textbearbeitungssoftware arbeitet?
+            </p>
+            <div class="form-check my-2 text-white-100">
+              <input type="radio" name="q6" value="A" checked />
+              <label class="form-check-label">Thin Client</label>
+            </div>
+            <div class="form-check my-2 text bg-white-100">
+              <input type="radio" name="q6" value="B" />
+              <label class="form-check-label">CAD-Workstation</label>
+            </div>
+            <div class="form-check my-2 text bg-white-100">
+              <input type="radio" name="q6" value="C" />
+              <label class="form-check-label">Heimserver</label>
+            </div>
+            <div class="form-check my-2 text bg-white-100">
+              <input type="radio" name="q6" value="D" />
+              <label class="form-check-label">Gaming-PC</label>
+            </div>
+          </div>
+          <div class="my-5">
+            <p class="lead font-weight-normal">
+              7. Welche Gerätekategorie ist nach den Netbooks mit mehr Leistung
+              und leichtemGewicht als neue Geräteklasse auf den Markt gekommen?
+            </p>
+            <div class="form-check my-2 text-white-100">
+              <input type="radio" name="q7" value="A" checked />
+              <label class="form-check-label">Neonbooks</label>
+            </div>
+            <div class="form-check my-2 text bg-white-100">
+              <input type="radio" name="q7" value="B" />
+              <label class="form-check-label">Ultrabooks</label>
+            </div>
+            <div class="form-check my-2 text bg-white-100">
+              <input type="radio" name="q7" value="C" />
+              <label class="form-check-label">Tetrabooks</label>
+            </div>
+            <div class="form-check my-2 text bg-white-100">
+              <input type="radio" name="q7" value="D" />
+              <label class="form-check-label">Tablets</label>
+            </div>
+          </div>
+          <div class="my-5">
+            <p class="lead font-weight-normal">
+              8. Was ist eine typische Funktion von Tablet-Computern?
+            </p>
+            <div class="form-check my-2 text-white-100">
+              <input type="radio" name="q8" value="A" checked />
+              <label class="form-check-label"
+                >Sie können Blu-ray abspielen.</label
+              >
+            </div>
+            <div class="form-check my-2 text bg-white-100">
+              <input type="radio" name="q8" value="B" />
+              <label class="form-check-label"
+                >Sie werden mit Festplatten für das Speichern von Musik
+                ausgestattet.</label
+              >
+            </div>
+            <div class="form-check my-2 text bg-white-100">
+              <input type="radio" name="q8" value="C" />
+              <label class="form-check-label"
+                >Sie verfügen über WLAN und sind optimiert, um immer online sein
+                zu können.</label
+              >
+            </div>
+            <div class="form-check my-2 text bg-white-100">
+              <input type="radio" name="q8" value="D" />
+              <label class="form-check-label"
+                >Sie verfügen über sehr viel Software, damit man keinen
+                Office-Computermehr benötigt.</label
+              >
+            </div>
+          </div>
+          <div class="my-5">
+            <p class="lead font-weight-normal">
+              9. Welche Aussage ist richtig?
+            </p>
+            <div class="form-check my-2 text-white-100">
+              <input type="radio" name="q9" value="A" checked />
+              <label class="form-check-label"
+                >Ein Petabyte stellt die größere Einheit als ein Terabyte
+                dar.</label
+              >
+            </div>
+            <div class="form-check my-2 text bg-white-100">
+              <input type="radio" name="q9" value="B" />
+              <label class="form-check-label"
+                >Ein Petabyte stellt die kleinere Einheit als ein Terabyte
+                dar.</label
+              >
+            </div>
+            <div class="form-check my-2 text bg-white-100">
+              <input type="radio" name="q9" value="C" />
+              <label class="form-check-label"
+                >Ein Petabyte stellt die kleinere Einheit als ein Gigabyte
+                dar.</label
+              >
+            </div>
+            <div class="form-check my-2 text bg-white-100">
+              <input type="radio" name="q9" value="D" />
+              <label class="form-check-label"
+                >Ein Terabyte stellt die kleinere Einheit als ein Gigabyte
+                dar.</label
+              >
+            </div>
+          </div>
+          <div class="my-5">
+            <p class="lead font-weight-normal">
+              10. Welchen Begriff ordnen Sie mobilen Telefonen zu?
+            </p>
+            <div class="form-check my-2 text-white-100">
+              <input type="radio" name="q10" value="A" checked />
+              <label class="form-check-label">SFF</label>
+            </div>
+            <div class="form-check my-2 text bg-white-100">
+              <input type="radio" name="q10" value="B" />
+              <label class="form-check-label">PDA</label>
+            </div>
+            <div class="form-check my-2 text bg-white-100">
+              <input type="radio" name="q10" value="C" />
+              <label class="form-check-label">Ultrabook</label>
+            </div>
+            <div class="form-check my-2 text bg-white-100">
+              <input type="radio" name="q10" value="D" />
+              <label class="form-check-label">Smartphone</label>
+            </div>
+          </div>
+          <div class="text-left">
+            <input type="submit" class="btn btn-light" />
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="assets/testbogen.js"></script>
+  </body>
+</html>

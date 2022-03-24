@@ -1,0 +1,9 @@
+.clock {
+  font-size: 2em;
+  text-align: center;
+  color: blue;
+  font-family: arial;
+}
+.clock span {
+  padding: 0px;
+}

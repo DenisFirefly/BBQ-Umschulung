@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "node-sass": "^7.0.1"
+  },
+  "scripts": {
+    "test": "bla bla bla",
+    "sass": "node-sass dist/assets/modul1_1.scss --output . modul1_1.css"
+  }
+}

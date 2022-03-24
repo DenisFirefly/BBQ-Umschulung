@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/style.css" />
+    <title>Umschulung BBQ</title>
+  </head>
+  <body>
+    <header><h1>Umschulung Fachinformatiker Anwendungsentwicklung</h1></header>
+    <section class="banner">
+      <img src="img/banner.jpg" alt="fachinformatiker banner" />
+      <div class="welcome">
+        <img src="img/bbq_logo.png" alt="bbq_logo" />
+        <!-- <h2>Welcome to <br /><span>Marioclub</span></h2> -->
+      </div>
+    </section>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="me.html">Über mich</a></li>
+        <li><a href="Modul1.html" class="join">Modul1</a></li>
+        <li><a href="Modul2.html">Modul2</a></li>
+        <li><a href="Pomodoro_Timer.html">Timer</a></li>
+        <li><a href="Lernstoff.html">Lernstoff</a></li>
+        <li><a href="Quiz.html">Quiz</a></li>
+      </ul>
+      <label>Modulen:</label>
+      <input
+        placeholder="Modul eingeben..."
+        type="text"
+        name="search"
+        id="suchfunktion"
+        list="moduls"
+        class="form_control"
+        onkeyup="suchfunktion()"
+      />
+      <datalist id="moduls">
+        <option value="Modul1"></option>
+        <option value="Modul2"></option>
+        <option value="Timer"></option>
+        <option value="Lernstoff"></option>
+        <option value="Quiz"></option>
+      </datalist>
+    </nav>
+    <main>
+      <article>
+        <h2>Die Wichtigste</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          <a href="learn_to_type.html">Learn to type</a>
+          reiciendis facere molestias praesentium possimus a unde tempore
+          voluptatem architecto! Perferendis, cupiditate fugit. Suscipit
+          perspiciatis deserunt aspernatur odio magnam, alias corrupti. Lorem
+          ipsum dolor sit amet consectetur adipisicing elit. Praesentium, alias
+          sint, doloribus voluptatem sequi beatae debitis inventore possimus
+          molestiae corporis fugit numquam est dignissimos ullam officia
+          accusamus explicabo ipsam nihil. Lorem ipsum, dolor sit amet
+          consectetur adipisicing elit. Asperiores,
+          <a href="calculator.html">calculasimus</a>! Id possimus, quibusdam
+          aliquid voluptas magni illo distinctio eaque consequatur aspernatur,
+          voluptates voluptatibus aliquam, perferendis officiis iusto dolor
+          eveniet! Perferendis.
+        </p>
+      </article>
+      <ul class="images">
+        <li><img src="img/clientcomputer.png" alt="clientcomputer" /></li>
+        <li><img src="img/motherboard_annotated.png" alt="motherboard" /></li>
+      </ul>
+    </main>
+    <section class="join">
+      <h2>Mach mit!</h2>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet
+        dignissimos vel voluptas quis
+        <a href="secret.html">secret</a> necessitatibus qui ducimus cumque velit
+        a reiciendis minima accusantium nesciunt exercitationem omnis doloribus,
+        neque corrupti nam.
+      </p>
+      <form>
+        <input
+          type="email"
+          name="email"
+          id=""
+          placeholder="Type email & hit enter"
+          required
+        />
+      </form>
+    </section>
+    <footer>
+      <p class="copyright">
+        Copyright 2022
+        <a href="http://www.bbq.de"><b class="bbq">BBQ</b></a>
+      </p>
+    </footer>
+    <script src="assets/bundle.js"></script>
+  </body>
+</html>
