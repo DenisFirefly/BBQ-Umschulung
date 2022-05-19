@@ -1,6 +1,6 @@
 $(document).ready(function () {
   // import view port library function
-  jQuery.extend(verge);
+  // jQuery.extend(verge);
 
   // smooth scrolling of viewport to target
   $('a[href^="#"]').click(function (event) {
@@ -28,70 +28,70 @@ $(document).ready(function () {
   // data for the portfolio cards front and back
   var projectData = [
     {
-      title: "Quotes",
-      text: '<p>A FreeCodeCamp project, <a href="https://www.freecodecamp.com/challenges/zipline-build-a-random-quote-machine" target="_blank"><i>Build a Random Quote Machine</i></a>. The user is able to show a new random quote and send that quote to Twitter. <strong>Quotes</strong> was designed and optimized to be a mobile web app first.</p> <strong>Code:</strong> HTML5, CSS3, Javascript, jQuery<br> <strong>Layout:</strong> Bootstrap<br> <strong>Graphics Editor:</strong> Gimp, pixlr.com<br> <strong>Images:</strong> lorempixel.com<br> <strong>Fonts:</strong> Font-awesome<br> <strong>Data:</strong> random famous quotes API',
+      title: "BBQ Quotes",
+      text: '<p>A BBQ project, <a href="https://codepen.io/denisfirefly/pen/VwyZWbp" target="_blank"><i>See the Code of the Quote Machine</i></a>. The user is able to show a new random quote. <strong>Quotes</strong> was designed and optimized to be a mobile web app first.</p> <strong>Code:</strong> HTML5, CSS3, Javascript<br> <strong>Layout:</strong> Bootstrap<br> <strong>Graphics Editor:</strong> Photoshop, pixlr.com<br> <strong>Images:</strong> Google<br> <strong>Fonts:</strong> Font-awesome<br> <strong>Data:</strong> random famous quotes API',
 
-      image: ["http://2am.ninja/img/quotes.jpg"],
+      image: ["img/card_pngs/bbq_quotes_card.PNG"],
       site: [
         [
           "CodePen",
           "fa-codepen",
-          "https://s.codepen.io/MutantSpore/full/dojjre",
+          "https://codepen.io/denisfirefly/pen/VwyZWbp",
         ],
-        ["Live Site", "fa-link", "http://2am.ninja/quotes/"],
+        //["Live Site", "fa-link", "http://2am.ninja/quotes/"],
       ],
     },
     {
-      title: "Twitch TV",
-      text: '<p>A FreeCodeCamp project, <a href="https://www.freecodecamp.com/challenges/zipline-use-the-twitchtv-json-api" target="_blank"><i>Use the Twitchtv JSON API</i></a>. A user can see if Free Code Camp is currently streaming on Twitch.tv.</p> <strong>Code:</strong> HTML5, CSS3, Javascript, jQuery<br> <strong>Layout:</strong> Bootstrap<br> <strong>Fonts:</strong> Ubuntu Mono<br> <strong>Data:</strong> Twitchtv API',
+      title: "BBQ Quiz",
+      text: '<p>A BBQ project, <a href="https://codepen.io/denisfirefly/pen/JjOJbmX" target="_blank"><i>Use the Codepen Website to preview the Code</i></a>. It is made for people who want to check their IT knowledge gained from BBQ.</p> <strong>Code:</strong> HTML5, CSS3, Javascript<br> <strong>Layout:</strong> Bootstrap<br> <strong>Fonts:</strong> Font-awesome<br> <strong>Data:</strong> Books and IHK Tests',
 
-      image: ["http://2am.ninja/img/twitch3.jpg"],
+      image: ["img/card_pngs/bbq_quiz_card.PNG"],
       site: [
         [
           "CodePen",
           "fa-codepen",
-          "https://s.codepen.io/MutantSpore/full/jrEBgq",
+          "https://codepen.io/denisfirefly/pen/JjOJbmX",
         ],
         //      ,['Live Site', 'fa-link', 'http://2am.ninja/twitch/']
       ],
     },
     {
-      title: "Wiki Search",
-      text: '<p>A FreeCodeCamp project, <a href="https://www.freecodecamp.com/challenges/zipline-build-a-wikipedia-viewer" target="_blank"><i>Build a Wikipedia Viewer</i></a>. A user can search Wikipedia entries in a search box and see the resulting Wikipedia entries.</p> <strong>Code:</strong> HTML5, CSS3, Javascript, jQuery<br> <strong>Layout:</strong> Bootstrap<br> <strong>Graphics Editor:</strong> pixlr.com<br> <strong>Images:</strong> unsplash.com<br> <strong>Data:</strong> Wikipedia API',
+      title: "Modul 1",
+      text: '<p>A BBQ project, <a href="https://codepen.io/denisfirefly/pen/WNXyaOK" target="_blank"><i>Build a Modul Website</i></a>. This is the Modul 1 Website. there is something hidden inside.</p> <strong>Code:</strong> HTML5, CSS3, Javascript<br> <strong>Layout:</strong> Bootstrap<br> <strong>Graphics Editor:</strong>Photoshop, pixlr.com<br> <strong>Images:</strong> Google<br> <strong>Data:</strong> BBQ Lectures',
 
-      image: ["http://2am.ninja/img/wiki.jpg"],
+      image: ["img/card_pngs/modul1_card.PNG"],
       site: [
         [
           "CodePen",
           "fa-codepen",
-          "https://s.codepen.io/MutantSpore/full/rVRwor",
+          "https://codepen.io/denisfirefly/pen/WNXyaOK",
         ],
       ],
     },
     {
       title: "Pomodoro Timer",
-      text: '<p>A FreeCodeCamp project, <a href="https://www.freecodecamp.com/challenges/zipline-build-a-pomodoro-clock" target="_blank"><i>Build a Pomodoro Clock</i></a>. A user can start a 25 minute pomodoro, and the timer will go off once 25 minutes has elapsed. <strong>Pomodoro Timer</strong> was designed and optimized to be a mobile web app first.</p> <strong>Code:</strong> HTML5, HTML5 Canvas, CSS3, Javascript, jQuery, ion.sound<br> <strong>Layout:</strong> Bootstrap, HTML5 Canvas<br> <strong>Fonts:</strong> IcoMoon',
+      text: '<p>A BBQ project, <a href="https://codepen.io/denisfirefly/pen/OJQRGGz" target="_blank"><i>Time your success</i></a>. A user can start a 25 minute pomodoro, and the timer will go off once 25 minutes has elapsed. There is also a possibility to change the amount of desired break. <strong>Pomodoro Timer</strong> was designed and optimized to be a mobile web app first.</p> <strong>Code:</strong> HTML5, CSS3, Javascript<br> <strong>Layout:</strong> Bootstrap<br> <strong>Fonts:</strong> Font-awesome',
 
-      image: ["http://2am.ninja/img/timer.jpg"],
+      image: ["img/card_pngs/pomodoro_card.png"],
       site: [
         [
           "CodePen",
           "fa-codepen",
-          "https://s.codepen.io/MutantSpore/full/WvVZyM",
+          "https://codepen.io/denisfirefly/pen/OJQRGGz",
         ],
-        ["Live Site", "fa-link", "http://2am.ninja/timer/"],
+            // ["Live Site", "fa-link", "http://2am.ninja/timer/"],
       ],
     },
     {
-      title: "Local Weather",
-      text: '<p>A FreeCodeCamp project, <a href="https://www.freecodecamp.com/challenges/zipline-show-the-local-weather" target="_blank"><i>Show the Local Weather</i></a>. A user can see the weather in my current location.. <strong>Local Weather</strong> was designed and optimized to be a mobile web app first.</p> <strong>Code:</strong> HTML5, CSS3, Javascript, jQuery<br> <strong>Layout:</strong> Bootstrap<br> <strong>Images:</strong> flickr.com<br> <strong>Fonts:</strong> Climacons, Open Sans<br> <strong>Data:</strong> Open Weather Map API, IP-API.com Geolocation API',
+      title: "Magic Keyboard",
+      text: '<p>A BBQ project, <a href="https://codepen.io/denisfirefly/full/abEvgLK" target="_blank"><i>Type FAST as Hell</i></a>. A user friendly interface to teach the user to type... <strong>Magic Keyboard</strong> was designed and optimized to be a motivated usage first.</p> <strong>Code:</strong> HTML5, CSS3, Javascript<br> <strong>Layout:</strong> Bootstrap<br> <strong>Images:</strong> Google<br> <strong>Fonts:</strong> Font-awesome<br> <strong>Data:</strong> My Brain',
 
-      image: ["http://2am.ninja/img/weather.jpg"],
+      image: ["img/card_pngs/keyboard_card.png"],
       site: [
         [
           "CodePen",
           "fa-codepen",
-          "https://codepen.io/MutantSpore/full/oXaoxb/",
+          "https://codepen.io/denisfirefly/full/abEvgLK",
         ],
       ],
     },
@@ -107,28 +107,41 @@ $(document).ready(function () {
        }, 
      */
     {
-      title: "Bar Graph",
-      text: '<p>A FreeCodeCamp project, <a href="https://www.freecodecamp.com/challenges/visualize-data-with-a-bar-chart" target="_blank"><i>Visualize Data with a Bar Chart </i></a>. The user can see US Gross Domestic Product by quarter, over time, with a mouse over tooltip.</p> <strong>Code:</strong> HTML5, CSS3, D3, SVG, Javascript, jQuery<br> <strong>Layout:</strong> Bootstrap',
+      title: "Matrix",
+      text: '<p>A BBQ project, <a href="ttps://codepen.io/denisfirefly/full/WNMGBxY" target="_blank"><i>Visualize the Matrix </i></a>. Design motivated from the movie "The Matrix". All the knowledge you need to know is here!</p> <strong>Code:</strong> HTML5, CSS3, Javascript<br> <strong>Layout:</strong> Bootstrap',
 
-      image: ["http://2am.ninja/img/bar-graph.jpg"],
+      image: ["img/card_pngs/matrix-secret_card.png"],
       site: [
         [
           "CodePen",
           "fa-codepen",
-          "https://s.codepen.io/MutantSpore/full/PNJMpg",
+          "https://codepen.io/denisfirefly/full/WNMGBxY",
         ],
       ],
     },
     {
-      title: "Heat Map",
-      text: '<p>A FreeCodeCamp project, <a href="https://www.freecodecamp.com/challenges/visualize-data-with-a-heat-map" target="_blank"><i>Visualize Data with a Heat Map</i></a>. The user can view a heat map with data represented both on the Y and X axis, with mouse over tooltip.</p> <strong>Code:</strong> HTML5, CSS3, D3, SVG, Javascript, jQuery<br> <strong>Layout:</strong> Bootstrap',
+      title: "WiSo",
+      text: '<p>A BBQ project, <a href="https://codepen.io/denisfirefly/full/MWQjdmg" target="_blank"><i>Wie so???</i></a>. This is the Modul 2 Website.</p> <strong>Code:</strong> HTML5, CSS3, Javascript, jQuery<br> <strong>Layout:</strong> Bootstrap',
 
-      image: ["http://2am.ninja/img/heat-map.jpg"],
+      image: ["img/card_pngs/wiso_card.png"],
       site: [
         [
           "CodePen",
           "fa-codepen",
-          "https://s.codepen.io/MutantSpore/full/VeKNEa",
+          "https://codepen.io/denisfirefly/full/MWQjdmg",
+        ],
+      ],
+    },
+    {
+      title: "This Website",
+      text: '<p>A BBQ project, <a href="https://codepen.io/denisfirefly/full/MWQjdmg" target="_blank"><i>Portfolio</i></a>. This is an Inception, if you click on the link, you will land on the SAME website where you are located right now!</p> <strong>Code:</strong> HTML5, CSS3, Javascript, jQuery<br> <strong>Layout:</strong> Bootstrap',
+
+      image: ["img/card_pngs/portfolio_card.png"],
+      site: [
+        [
+          "CodePen",
+          "fa-codepen",
+          "https://codepen.io/denisfirefly/full/zYRwEpe",
         ],
       ],
     },
@@ -143,20 +156,20 @@ $(document).ready(function () {
       ]
     }, 
     
-    */
-    {
-      title: "Tic-Tac-Toe",
-      text: '<p>A FreeCodeCamp project, <a href="https://www.freecodecamp.com/challenges/build-a-tic-tac-toe-game" target="_blank"><i>Build a Tic Tac Toe Game</i></a>. The user can play a game of Tic Tac Toe with the computer.</p> <strong>Code:</strong> HTML5, CSS3, Javascript, jQuery<br> <strong>Layout:</strong> Materialize.css',
+    // */
+    // {
+    //   title: "Tic-Tac-Toe",
+    //   text: '<p>A FreeCodeCamp project, <a href="https://www.freecodecamp.com/challenges/build-a-tic-tac-toe-game" target="_blank"><i>Build a Tic Tac Toe Game</i></a>. The user can play a game of Tic Tac Toe with the computer.</p> <strong>Code:</strong> HTML5, CSS3, Javascript, jQuery<br> <strong>Layout:</strong> Materialize.css',
 
-      image: ["http://2am.ninja/img/ttt.jpg"],
-      site: [
-        [
-          "CodePen",
-          "fa-codepen",
-          "https://s.codepen.io/MutantSpore/full/jWWYLo",
-        ],
-      ],
-    },
+    //   image: ["http://2am.ninja/img/ttt.jpg"],
+    //   site: [
+    //     [
+    //       "CodePen",
+    //       "fa-codepen",
+    //       "https://s.codepen.io/MutantSpore/full/jWWYLo",
+    //     ],
+    //   ],
+    // },
   ];
 
   // add listener to all the cards for click flipping
@@ -176,7 +189,7 @@ $(document).ready(function () {
 
   // create, populate and show portfolio project cards
   function showProjectCards() {
-    var html = "";
+    let html = "";
 
     projectData.forEach(function (project) {
       html += '<div class="col-sm-6 col-md-4">';
@@ -208,7 +221,7 @@ $(document).ready(function () {
           project.site[1][2] +
           '" target="_blank" class="btn btn-primary btn-lg btn-circle btn-lnk btn-lnk1"><i class="fa ' +
           project.site[1][1] +
-          '" aria-hidden="true"></i></a>';
+          '" aria-hidden="false"></i></a>';
       }
 
       html += "</div></figcaption></figure></div>";
@@ -222,7 +235,7 @@ $(document).ready(function () {
 
   showProjectCards();
   $(".copyright").append(
-    "<span>© " + year + " Bruce Young. All rights reserved</span>"
+    "<span>© " + year + " Denis Ahmed. All rights reserved</span>"
   );
 
   // turn on bootstrap tooltips
